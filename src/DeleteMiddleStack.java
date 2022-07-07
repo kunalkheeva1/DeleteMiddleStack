@@ -14,6 +14,7 @@ public static void deleteMiddleElementRec(int i, Stack<Integer>st, int n){
 }
 
     public static void deleteMiddleStackElement(int i, Stack<Integer> st, int n){
+    deleteMiddleElementRec(0,st,n);
 
     }
 
